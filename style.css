@@ -1,0 +1,81 @@
+.site-title{
+   text-align: center;
+   background-color: #030303;
+   color:#fff;
+   margin:0;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background: #bfbfbfe6;
+}
+table{
+    
+    background-color: #fff;
+    width: 700px;
+}
+.link-main{
+    display:block;
+    background: #e0e0e0;
+    color:black;
+}
+.link-main:hover{
+    background:black;
+    color:white;
+    
+}
+.link-main:active{
+    background: #f9dada;
+}
+.user-name{
+    margin-top: 30px;
+}
+.user-avatar{
+    margin-bottom:25px;
+}
+
+.search{
+    margin-top:55px;
+    
+}
+.input-search{
+    width:320px;
+    font-size: 20px;
+    padding: 5px;
+    padding-left:10px;
+    border: 1px solid #606060;
+    border-radius:10px 0 0 10px;
+}
+.input-submit{
+    border: 1px solid #606060;
+    padding: 9px;
+    border-radius: 0 10px 10px 0;
+    
+   
+}
+.input-submit:hover{
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+.input-submit:active{
+    background: #f9dada;
+    color:black;
+}
+
+.select{
+    margin-bottom:25px;
+}
+.main-form{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
