@@ -23,6 +23,9 @@ body{
     font-family: 'Titillium Web', sans-serif;
     background: rgba(58, 57, 57, 0.22);
 }
+td{
+    padding:7px 0;
+}
 table{
     
     background-color: rgba(160, 160, 160, 0.08);
