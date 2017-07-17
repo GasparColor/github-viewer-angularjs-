@@ -12,7 +12,7 @@
     <option value="-stargazers_count">Stars</option>
     <option value="+language">Language</option>
   </select></br>
-  <a class="link-main" href="#/main">Back to search</a>
+ 
   
   <table>
     <thead>
@@ -23,7 +23,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="repo in repos | orderBy: repoSortOrder">
+      <tr ng-repeat="repo in repos | orderBy: repoSortOrder" ng-class="$even ? 'class1' : 'class2'">
         <td>
         
           {{repo.name}}
