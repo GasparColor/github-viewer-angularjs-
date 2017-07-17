@@ -13,12 +13,15 @@
     text-align: center;
    
 }
+body>a{
+    text-decoration: none;
+}
 .search-descr{
     font-weight: bold
 }
 body{
     font-family: 'Titillium Web', sans-serif;
-    background: #bfbfbfe6;
+    background: rgba(58, 57, 57, 0.22);
 }
 table{
     
@@ -30,17 +33,16 @@ thead{
     color: white;
     
 }
-.class1{
+.class2{
     background-color: #fbfbfb;
 }
-.class2{
+.class1{
     background-color: #ddf6f9;
 }
 .link-main{
     display:block;
     background: black;
     color:white;
-    padding: 5px 0;
 }
 .link-main:hover{
     background:black;
@@ -49,6 +51,8 @@ thead{
 }
 .link-main:active{
     background: #f9dada;
+    color:black;
+    
 }
 .user-name{
     margin-top: 30px;
